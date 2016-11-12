@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install karma-web-notification --save-dev
+npm install karma-web-notification-reporter --save-dev
 ```
 
 ## Configuration
