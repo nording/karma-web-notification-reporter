@@ -1,0 +1,14 @@
+{
+  "name": "karma-web-notification-reporter",
+  "version": "0.0.1",
+  "description": "Web notification reporter for Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "karma-reporter"
+  ],
+  "author": "Kristoffer Nording",
+  "license": "MIT"
+}
