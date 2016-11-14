@@ -15,13 +15,16 @@ module.exports = function(config) {
     plugins: [
         require('karma-web-notification-reporter')
     ],
-    reporters: ['web-notification']
+    reporters: ['web-notification'],
+    client: {
+      clearContext: false // make sure this is set to "false", otherwise it won't work
+    }
   });
 };
 ```
 
 ----
 
-For more information on Karma see the [homepage].
+For more information about Karma see the [homepage].
 
 [homepage]: http://karma-runner.github.com

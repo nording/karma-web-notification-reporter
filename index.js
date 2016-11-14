@@ -7,6 +7,13 @@ var webNotification = function(configFiles){
         served: true, 
         watched: false 
     });
+
+    configFiles.push({ 
+        pattern: path.join(__dirname, 'images/error.png'), 
+        included: false, 
+        served: true, 
+        watched: false 
+    });
 }
 
 webNotification.$inject = ['config.files'];
