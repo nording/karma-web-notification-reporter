@@ -1,5 +1,7 @@
 #karma-web-notification-reporter
 
+[[https://github.com/nording/karma-web-notification-reporter/blob/master/images/example.png|alt=Web notification example]]
+
 ## Installation
 
 ```bash
@@ -15,7 +17,7 @@ module.exports = function(config) {
     plugins: [
         require('karma-web-notification-reporter')
     ],
-    reporters: ['web-notification'],
+    reporters: ['progress', 'web-notification'],
     client: {
       clearContext: false // make sure this is set to "false", otherwise it won't work
     }
