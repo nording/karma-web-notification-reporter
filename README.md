@@ -1,6 +1,6 @@
 #karma-web-notification-reporter
 
-[[https://github.com/nording/karma-web-notification-reporter/blob/master/images/example.png|alt=Web notification example]]
+[![Web notification example](/images/example.png)]
 
 ## Installation
 
