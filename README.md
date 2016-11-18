@@ -1,6 +1,6 @@
 #karma-web-notification-reporter
 
-[!(/images/example.png)]
+![screenshot](images/example.png)
 
 ## Installation
 
